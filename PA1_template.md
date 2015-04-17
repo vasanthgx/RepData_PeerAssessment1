@@ -13,7 +13,7 @@ options(scipen = 1)  # Turn off scientific notations for numbers
 ### Loading and processing the data
 
 ```r
-unzip("activity.zip")
+
 data <- read.csv("activity.csv", colClasses = c("integer", "Date", "factor"))
 data$month <- as.numeric(format(data$date, "%m"))
 noNA <- na.omit(data)
