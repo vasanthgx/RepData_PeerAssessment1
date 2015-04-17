@@ -53,7 +53,7 @@ For this part of the assignment, you can ignore the missing values in the datase
 ggplot(noNA, aes(date, steps)) + geom_bar(stat = "identity", colour = "steelblue", fill = "steelblue", width = 0.7) + facet_grid(. ~ month, scales = "free") + labs(title = "Histogram of Total Number of Steps Taken Each Day", x = "Date", y = "Total number of steps")
 ```
 
-![plot of chunk unnamed-chunk-3](unnamed-chunk-3.png) 
+
 
 * Calculate and report the mean and median total number of steps taken per day
 
