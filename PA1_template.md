@@ -21,6 +21,7 @@ rownames(noNA) <- 1:nrow(noNA)
 head(noNA)
 ```
 
+
 ```
 ##   steps       date interval month
 ## 1     0 2012-10-02        0    10
